@@ -1,0 +1,180 @@
+@media (max-width: 1024px) {
+  .container {
+    min-width: 100%;
+    padding: 0 15px;
+  }
+
+
+  .background-banner {
+    max-height: 770px;
+
+
+    li {
+      width: 120px;
+
+      a {
+        font-size: 12px;
+      }
+    }
+
+    .banner {
+      h1 {
+        font-size: 48px;
+        padding-top: 260px;
+      }
+
+      &__text {
+        padding: 30px 100px 0 100px;
+        font-size: 18px;
+      }
+    }
+  }
+
+  //features
+  .features {
+    min-height: 690px;
+    padding: 80px 15px;
+
+    &__card {
+      img {
+        width: 85px;
+        height: 85px;
+      }
+
+      .heading {
+        font-size: 18px;
+        margin-top: 20px;
+      }
+
+      .desc {
+        font-size: 14px;
+      }
+    }
+  }
+
+  //work
+  .work #background .block__text {
+    .img__head {
+      font-size: 18px;
+      padding-top: 80px;
+    }
+
+    .img__desc {
+      font-size: 14px;
+    }
+  }
+
+  //ourt
+  .our-team {
+    padding: 80px 0;
+    grid-template-columns: repeat(auto-fill, 225px);
+    grid-column-gap: 25px;
+    max-width: 985px;
+
+    .person-card__name {
+      font-size: 18px;
+    }
+
+    .person-card__post {
+      font-size: 14px;
+    }
+
+    .person-card__desc {
+      font-size: 14px;
+    }
+  }
+
+  //testimonials
+  .testimonials {
+    .slider {
+      max-height: 332px;
+
+      .slider__content {
+        .slides {
+          .slide {
+            &__text {
+              margin: 0 100px 0 85px;
+
+              &>h2 {
+                font-size: 24px;
+              }
+            }
+          }
+        }
+      }
+
+      .slider__controls {
+        bottom: -35px;
+
+        .dot {
+          width: 10px;
+          height: 10px;
+        }
+      }
+
+      #btn-2:checked~.slider__content .slides {
+        left: -1024px;
+      }
+
+      #btn-3:checked~.slider__content .slides {
+        left: -2048px;
+      }
+
+      #btn-4:checked~.slider__content .slides {
+        left: -3072px;
+      }
+
+      #btn-5:checked~.slider__content .slides {
+        left: -4096px;
+      }
+    }
+  }
+
+  //download
+  .download {
+    height: 400px;
+    padding-top: 132px;
+
+    &__title {
+      font-size: 24px;
+      height: 40px;
+    }
+
+    &__text {
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+
+    &__btn {
+      height: 78px;
+      font-size: 18px;
+    }
+  }
+
+  //footer
+  .footer {
+    &__inner {
+      padding-top: 45px;
+      padding-bottom: 45px;
+      grid-template-columns: 30% 40% 30%;
+      grid-template-rows: 100px;
+
+      &>section {
+
+        &>h5,
+        p {
+          font-size: 14px;
+        }
+
+        .social__link {
+          margin: 40px auto;
+        }
+      }
+    }
+
+    .copyright {
+      height: 60px;
+      
+    }
+  }
+}

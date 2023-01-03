@@ -1,0 +1,120 @@
+@media (max-width: 1024px) {
+  .container {
+    min-width: 100%;
+    padding: 0 15px;
+  }
+  .background-banner {
+    max-height: 770px;
+  }
+  .background-banner li {
+    width: 120px;
+  }
+  .background-banner li a {
+    font-size: 12px;
+  }
+  .background-banner .banner h1 {
+    font-size: 48px;
+    padding-top: 260px;
+  }
+  .background-banner .banner__text {
+    padding: 30px 100px 0 100px;
+    font-size: 18px;
+  }
+  .features {
+    min-height: 690px;
+    padding: 80px 15px;
+  }
+  .features__card img {
+    width: 85px;
+    height: 85px;
+  }
+  .features__card .heading {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .features__card .desc {
+    font-size: 14px;
+  }
+  .work #background .block__text .img__head {
+    font-size: 18px;
+    padding-top: 80px;
+  }
+  .work #background .block__text .img__desc {
+    font-size: 14px;
+  }
+  .our-team {
+    padding: 80px 0;
+    grid-template-columns: repeat(auto-fill, 225px);
+    grid-column-gap: 25px;
+    max-width: 985px;
+  }
+  .our-team .person-card__name {
+    font-size: 18px;
+  }
+  .our-team .person-card__post {
+    font-size: 14px;
+  }
+  .our-team .person-card__desc {
+    font-size: 14px;
+  }
+  .testimonials .slider {
+    max-height: 332px;
+  }
+  .testimonials .slider .slider__content .slides .slide__text {
+    margin: 0 100px 0 85px;
+  }
+  .testimonials .slider .slider__content .slides .slide__text > h2 {
+    font-size: 24px;
+  }
+  .testimonials .slider .slider__controls {
+    bottom: -35px;
+  }
+  .testimonials .slider .slider__controls .dot {
+    width: 10px;
+    height: 10px;
+  }
+  .testimonials .slider #btn-2:checked ~ .slider__content .slides {
+    left: -1024px;
+  }
+  .testimonials .slider #btn-3:checked ~ .slider__content .slides {
+    left: -2048px;
+  }
+  .testimonials .slider #btn-4:checked ~ .slider__content .slides {
+    left: -3072px;
+  }
+  .testimonials .slider #btn-5:checked ~ .slider__content .slides {
+    left: -4096px;
+  }
+  .download {
+    height: 400px;
+    padding-top: 132px;
+  }
+  .download__title {
+    font-size: 24px;
+    height: 40px;
+  }
+  .download__text {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  .download__btn {
+    height: 78px;
+    font-size: 18px;
+  }
+  .footer__inner {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 100px;
+  }
+  .footer__inner > section > h5,
+.footer__inner > section p {
+    font-size: 14px;
+  }
+  .footer__inner > section .social__link {
+    margin: 40px auto;
+  }
+  .footer .copyright {
+    height: 60px;
+  }
+}/*# sourceMappingURL=media1024.css.map */

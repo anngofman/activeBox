@@ -1,0 +1,41 @@
+.our-team {
+  padding: 115px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 265px);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
+.person-card__avatar img {
+  width: 100%;
+  object-fit: contain;
+}
+  .person-card__name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #2D3033;
+  }
+
+  .person-card__post {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FF4343;
+    text-transform: uppercase;
+    padding-top: 5px;
+  }
+
+  .person-card__desc {
+    color: #2D3033;
+    margin: 17px 0 37px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-right: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

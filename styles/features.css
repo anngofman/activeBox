@@ -1,0 +1,35 @@
+.features {
+  padding: 115px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  min-height: 950px;
+}
+.features__card {
+  max-width: 31.6239%;
+  text-align: center;
+}
+.features__card img {
+  width: 100px;
+  height: 100px;
+}
+.features__card .heading {
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  margin-top: 30px;
+  padding-top: 20px;
+  width: 100%;
+  min-height: 20%;
+  text-transform: uppercase;
+  color: #2D3033;
+}
+.features__card .desc {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  padding-top: 20px;
+  color: #6C7279;
+}/*# sourceMappingURL=features.css.map */

@@ -1,0 +1,117 @@
+@media (max-width: 320px) {
+  .background-banner {
+    max-height: 575px;
+    height: 575px;
+  }
+  .background-banner .header__body {
+    height: 55px;
+  }
+  .background-banner .header img:first-child {
+    width: 72px;
+  }
+  .background-banner .header img:last-child {
+    width: 35px;
+  }
+  .background-banner .banner h1 {
+    font-size: 36px;
+    padding-top: 105px;
+  }
+  .background-banner .banner__text {
+    font-size: 14px;
+    padding: 0;
+    margin: 30px 0 50px;
+  }
+  .background-banner .banner__btn {
+    width: 280px;
+    height: 58px;
+  }
+  .features {
+    height: 1620px;
+    padding: 40px 15px;
+  }
+  .features__card {
+    max-width: 100%;
+  }
+  .features__card .desc {
+    padding-top: 10px;
+  }
+  .features__card img {
+    width: 75px;
+    height: 75px;
+  }
+  .work {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .work #background > .block__text .img__head {
+    padding-top: 45px;
+  }
+  .work #background > .block__text .img__desc {
+    padding-top: 13px;
+  }
+  .our-team {
+    padding: 35px 0;
+    grid-template-columns: repeat(auto-fill, 280px);
+    max-width: 300px;
+  }
+  .our-team .person-card__name {
+    font-size: 18px;
+  }
+  .our-team .person-card__post {
+    font-size: 14px;
+  }
+  .our-team .person-card__desc {
+    font-size: 14px;
+  }
+  .testimonials .slider {
+    max-height: 540px;
+  }
+  .testimonials .slider .slider__content .slides .slide {
+    display: block;
+  }
+  .testimonials .slider .slider__content .slides .slide__img {
+    width: 100%;
+  }
+  .testimonials .slider .slider__content .slides .slide__text {
+    margin: 20px 25px 95px 20px;
+    text-align: center;
+  }
+  .testimonials .slider .slider__content .slides .slide__text > p {
+    font-size: 12px;
+  }
+  .testimonials .slider #btn-2:checked ~ .slider__content .slides {
+    left: -320px;
+  }
+  .testimonials .slider #btn-3:checked ~ .slider__content .slides {
+    left: -640px;
+  }
+  .testimonials .slider #btn-4:checked ~ .slider__content .slides {
+    left: -960px;
+  }
+  .testimonials .slider #btn-5:checked ~ .slider__content .slides {
+    left: -1280px;
+  }
+  .download {
+    height: 315px;
+    padding-top: 90px;
+  }
+  .download__title {
+    font-size: 18px;
+  }
+  .download__text {
+    font-size: 13px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  .download__btn {
+    width: 100%;
+  }
+  .footer__inner {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 35px 20px 0;
+  }
+  .footer .copyright {
+    height: 90px;
+  }
+}/*# sourceMappingURL=madia320.css.map */
